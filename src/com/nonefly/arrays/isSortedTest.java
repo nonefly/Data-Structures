@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author nonefly
  * 2015-6-8
  */
-public class Test6 {
+public class isSortedTest {
 	/**
 	 * boolean isSorter(int[] a)
 	 * return true iff a[]<=a[1]...<=a[a.length-1]

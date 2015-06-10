@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author nonefly
  * Jun 9, 2015
  */
-public class Test10 {
+public class reverseTest {
 	private static void reverse(int[] a){
 		if(a.length < 2)
 			return;

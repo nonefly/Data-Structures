@@ -7,7 +7,7 @@ import java.math.BigDecimal;
  * 
  * @author nonefly Jun 9, 2015
  */
-public class Test15 {
+public class outerProductTest {
 	// my bad code
 
 //	private static double[][] outerProduct(double[] x, double[] y) {

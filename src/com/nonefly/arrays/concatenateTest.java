@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 
  * @author nonefly Jun 9, 2015
  */
-class Test11 {
+public class concatenateTest {
 
 	private static Object[] concatenate(Object[] a, Object[] b) {
 		final Object[] c = new Object[a.length + b.length];

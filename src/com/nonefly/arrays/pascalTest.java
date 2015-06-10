@@ -6,7 +6,7 @@ package com.nonefly.arrays;
  * @author nonefly
  * Jun 10, 2015
  */
-public class Test18 {
+public class pascalTest {
 	//I think it's better than the answer gived
 	private static int[][] pascal(int size){
 		if(size < 1)

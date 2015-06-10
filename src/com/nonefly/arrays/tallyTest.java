@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author nonefly
  * Jun 9, 2015
  */
-public class Test13 {
+public class tallyTest {
 
 	private static int[] tally(String s){
 		int[] frequency = new int[26];
