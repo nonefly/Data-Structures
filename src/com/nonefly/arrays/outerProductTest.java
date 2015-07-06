@@ -32,7 +32,6 @@ public class outerProductTest {
 		return product;
 	}
 
-	// 原书范例有误 改正如下
 
 //	private static double[][] outerProduct(double[] x, double[] y) {
 //		double[][] z = new double[x.length][y.length];
