@@ -2,13 +2,12 @@ package com.nonefly.recursive;
 
 
 /**
- * 
  * @author nonefly
- * Aug 28, 2015
+ * 2015年8月27日
  */
 public class Gcd {
 	/** 
-	 * ��������
+	 * 暴力尝试
 	 */
 	public static int gcd0(int a, int b) {
 		if(a < 0 || b < 0)
@@ -19,11 +18,11 @@ public class Gcd {
 		}
 		return 1;
 	}
-	/** �ⷨһ 
-	 * ŷ������㷨��շת�������
-	 * ��������(a b,����a > b)���Լ��,
-	 * ÿ���ýϴ���a��bȡ��,
-	 * ����c��Ϊ0���ýϴ������ڽ�С������С����������,��:
+	/** 解法一 
+	 * 欧几里得算法（辗转相除法）
+	 * 求两个数(a b,假设a > b)最大公约数,
+	 * 每次用较大数a除b取余,
+	 * 余数c不为0则让较大数等于较小数，较小数等于余数,即:
 	 * a = b; b= c;
 	 */
 	public static int gcd1(int a, int b) {
@@ -39,8 +38,8 @@ public class Gcd {
 			return gcd1(b, a % b);
 	}
 	/**
-	 * ��������� ���ԡ�����������
-	 * ps:��Ҳ��֪�����㷨��ͷ��ֻ��֪���㷨˼�룬����֪���ĳ���������~
+	 * 更相减损术 来自《九章算术》
+	 * ps:我也不知道这算法来头，只是知道算法思想，查后才知它的出处和名字~
 	 * 
 	 */
 	public static int gcd2(int a, int b) {
